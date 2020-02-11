@@ -1,15 +1,15 @@
 public void setup(){
-	size(500,500);
+	size(600,600);
 	rectMode(CENTER);
 	fill(20);
 
 
 }
 public void draw(){
-	
+
 	background((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
 
-	myFractal(250,250,450);
+	myFractal(300,300,450);
 }
 
 public void myFractal(int x, int y, int siz){
