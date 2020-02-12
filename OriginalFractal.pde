@@ -7,7 +7,7 @@ public void setup(){
 }
 public void draw(){
 
-	//background((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
+	background((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
 
 	myFractal(300,300,450);
 }
@@ -15,7 +15,7 @@ public void draw(){
 public void myFractal(int x, int y, int siz){
 
 	fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
-	circle(x, y, siz);
+	ellipse(x, y, siz, siz);
 	if(siz>10){
 		myFractal(x-siz/2,y/2,siz/2);
 		myFractal(x+siz/2,y*2,siz/2);
