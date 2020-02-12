@@ -7,7 +7,7 @@ public void setup(){
 }
 public void draw(){
 
-	background((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
+	//background((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
 
 	myFractal(300,300,450);
 }
